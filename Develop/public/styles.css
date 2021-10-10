@@ -6,6 +6,7 @@ body {
 button, input {
   font-size: 100%;
   font-family: Arial;
+  margin: 5px;
 }
 
 table {
@@ -28,7 +29,7 @@ tr:nth-child(even) {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 825px;
+  max-width: 1200px;
   text-align: center;
 }
 
@@ -44,8 +45,27 @@ tr:nth-child(even) {
 
 .transactions {
   text-align: left;
-  max-height: 300px;
+  max-height: 6500px;
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+/* updating css for mobile*/
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 110%;
+  }
+  .total {
+    font-size: 125%;
+  }
+
+  .transactions {
+    max-height: 220px;
+    width: 95%;
+  }
+
+ #myChart {
+    height: 225px !important;
+  }
 }
