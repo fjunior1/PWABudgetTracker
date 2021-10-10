@@ -66,7 +66,7 @@ C- If you enter deposits or expenses offline, the offline entries will be added 
 Note: Any deposits or expenses will be listed in the Chart.  
 
 ## SCREENSHOTS
-![example running app](./assets/budgettrackerscreen.jpg)
+![example running app](./assets/budgettrackerscren.jpg)
 ## LINKS
 - The [repository](https://github.com/fjunior1/PWA-Budget-Tracker) for this application.
 - The [deployed application](https://.herokuapp.com/).
